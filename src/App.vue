@@ -37,6 +37,10 @@ a:hover {
   text-decoration-color: #FF540B;
 }
 
+p {
+  margin: 0 !important;
+}
+
 nav a.router-link-exact-active {
   color: #2A2929;
   text-decoration: underline;

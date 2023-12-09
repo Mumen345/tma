@@ -1,5 +1,6 @@
 <script setup>
 import HeroSection from './HeroSection.vue';
+import OurServices from './OurServices.vue';
 import SecondSection from './SecondSection.vue';
 
 
@@ -9,6 +10,7 @@ import SecondSection from './SecondSection.vue';
   <div>
     <HeroSection />
     <SecondSection />
+    <OurServices />
   </div>
 </template>
 

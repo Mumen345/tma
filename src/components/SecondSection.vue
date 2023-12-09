@@ -1,15 +1,19 @@
 <template>
     <div class="second_section">
-        <p>LET'S CREATE BEST BRAND WITH OUR EXPERIENCE</p>
+        <marquee direction="left" behavior="">
+            <p>LET'S CREATE BEST BRAND WITH OUR EXPERIENCE</p>
+        </marquee>
         <div>
-            <img src="../assets/images/values.svg" alt="">
+            <CounterView />
         </div>
     </div>
 </template>
 
 <script>
-export default {
+import CounterView from './CounterView.vue';
 
+export default {
+    components: { CounterView }
 }
 </script>
 
@@ -17,10 +21,13 @@ export default {
 .second_section {
     margin-top: 40px;
     background: #2A2929;
-    height: 148px;
+    height: auto;
+    padding: 10px 0;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
+    width: 100%;
 
 }
 
@@ -33,6 +40,14 @@ export default {
     text-align: left;
     width: 70%;
     color: #ffffff;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .second_section {
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
 
 }
 </style>
