@@ -6,28 +6,42 @@
                 <p class="header">OUR <span class="bold_text">
                         SERVICES
                     </span> </p>
-                <p class="writeup">We produce high quality content tailored to the creative needs, goals and target
+                <p v-if="isActive" class="writeup">We produce high quality content tailored to the creative needs, goals and
+                    target
                     audience. This could
                     involve
                     filming, designing, and recording contents. <br>
                     We have high level production equipment at our disposal to match any content needed.</p>
+                <p v-if="isActive2" class="writeup">
+                    We brainstorm and devise a plan outlining what type of content will be created to best fit the creative
+                    which would also help in the branding/rebranding. We outline the content, where it would be published,
+                    and how it would align with the creative goals.
+                </p>
+                <p v-if="isActive3" class="writeup">
+                    We assist in distributing and promoting the content across all platforms to increase visibility and
+                    reach the intended audience.
+                </p>
+                <p v-if="isActive4" class="writeup">
+                    We offer insights into content performance through analytics tools, allowing creatives to track the
+                    success of their content campaigns.
+                </p>
 
             </div>
         </div>
         <div class="right_div">
-            <div @click="makeActive" class="active">
+            <div @click="toggleActive" :class="{ active: isActive }">
                 <p>Content Creation</p>
 
             </div>
-            <div @click="makeActive">
+            <div @click="toggleTwo" :class="{ active: isActive2 }">
                 <p>Content Strategy</p>
 
             </div>
-            <div @click="makeActive">
+            <div @click="toggleThree" :class="{ active: isActive3 }">
 
                 <p>Content Marketing</p>
             </div>
-            <div @click="makeActive">
+            <div @click="toggleFour" :class="{ active: isActive4 }">
                 <p>Analytics and Reporting</p>
 
             </div>
@@ -40,11 +54,40 @@ export default {
     name: "Our Services",
     data() {
         return {
-            active: true,
-            makeActive: false
+            isActive: true,
+            isActive2: false,
+            isActive3: false,
+            isActive4: false,
+
 
         }
     },
+    methods: {
+        toggleActive: function () {
+            this.isActive = true;
+            this.isActive2 = false
+            this.isActive3 = false
+            this.isActive4 = false
+        },
+        toggleTwo: function () {
+            this.isActive2 = true;
+            this.isActive = false;
+            this.isActive3 = false;
+            this.isActive4 = false;
+        },
+        toggleThree: function () {
+            this.isActive3 = true
+            this.isActive2 = false
+            this.isActive4 = false
+            this.isActive = false;
+        },
+        toggleFour: function () {
+            this.isActive4 = true
+            this.isActive3 = false
+            this.isActive2 = false
+            this.isActive = false;
+        }
+    }
 }
 </script>
 
