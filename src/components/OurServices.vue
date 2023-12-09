@@ -119,7 +119,7 @@ export default {
 }
 
 .writeup {
-    font-family: Brinnan;
+    font-family: BrinnanLight;
     font-size: 20px !important;
     font-weight: 300;
     line-height: 24px;
@@ -127,6 +127,7 @@ export default {
     text-align: justify;
     width: 390px;
     height: 177px;
+    color: #474747;
 
 }
 
