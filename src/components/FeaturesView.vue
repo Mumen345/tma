@@ -14,13 +14,14 @@ export default {
 <style scoped>
 .plans_header {
     font-family: ReportSchoolW00-Heavy;
-    font-size: 105px;
+    font-size: 90px;
     font-weight: 900;
-    line-height: 126px;
+    line-height: 116px;
     letter-spacing: 0em;
     text-align: left;
     text-transform: capitalize !important;
     text-align: center;
+    width: 100%;
 }
 
 .subtext {
@@ -31,11 +32,16 @@ export default {
     letter-spacing: 0em;
     text-align: justified;
     text-align: center;
+    width: 100%;
 }
+
+
 
 .header_div {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 </style>
