@@ -2,6 +2,7 @@
     <div class="header_div">
         <p class="plans_header">FLEXIBLE PRICING PLANS FOR YOUR BRAND</p>
         <p class="subtext">Lorem ipsum dolor sit amet consectetur. Lacus rutrum feugiat adipiscing parturient non </p>
+        <img src="../assets/images/prices.svg" alt="">
     </div>
 </template>
 
@@ -43,5 +44,21 @@ export default {
     gap: 30px;
     justify-content: center;
     align-items: center;
+}
+
+.header_div img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1034px) {
+    .header_div img {
+        display: none;
+    }
+
+    .plans_header {
+        font-size: 50px;
+        line-height: 70px;
+        text-align: center;
+    }
 }
 </style>

@@ -4,6 +4,8 @@ import HeroSection from './HeroSection.vue';
 import OurServices from './OurServices.vue';
 import SecondSection from './SecondSection.vue';
 import TrustedView from './TrustedView.vue';
+import ProjectsView from './ProjectsView.vue';
+import FooterView from './FooterView.vue';
 
 
 </script>
@@ -15,6 +17,8 @@ import TrustedView from './TrustedView.vue';
     <OurServices />
     <TrustedView />
     <FeaturesView />
+    <ProjectsView />
+    <FooterView />
   </div>
 </template>
 

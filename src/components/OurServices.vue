@@ -58,8 +58,6 @@ export default {
             isActive2: false,
             isActive3: false,
             isActive4: false,
-
-
         }
     },
     methods: {
@@ -119,7 +117,7 @@ export default {
 }
 
 .writeup {
-    font-family: BrinnanLight;
+    font-family: BrinnanLight !important;
     font-size: 20px !important;
     font-weight: 300;
     line-height: 24px;
@@ -137,7 +135,7 @@ export default {
     justify-content: start;
     align-items: center;
     gap: 30px;
-    font-family: Brinnan;
+    font-family: BrinnanRegular;
     color: #1C1B1B;
     font-size: 32px;
     font-weight: 400;
@@ -167,7 +165,7 @@ export default {
 }
 
 .right_div div {
-    font-family: Brinnan;
+    font-family: BrinnanBold;
     font-size: 32px;
     font-weight: 900;
     letter-spacing: 0em;
@@ -211,7 +209,7 @@ export default {
     }
 
     .writeup {
-        font-family: Brinnan;
+        /* font-family: BrinnanBold; */
         font-size: 20px !important;
         font-weight: 300;
         line-height: 24px;
@@ -219,6 +217,7 @@ export default {
         text-align: justify;
         width: 390px;
         height: auto;
+
 
     }
 

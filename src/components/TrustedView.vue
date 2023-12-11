@@ -37,7 +37,7 @@ export default {
     justify-content: start;
     align-items: center;
     gap: 30px;
-    font-family: Brinnan;
+    font-family: BrinnanRegular;
     color: #1C1B1B;
     font-size: 32px;
     font-weight: 400;
