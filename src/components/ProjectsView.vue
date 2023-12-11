@@ -3,17 +3,62 @@
         <p class="little_header">PROJECTS <span><img src="../assets/images/long_arrow.svg" alt="arrow"></span> </p>
         <div class="project_images">
             <div class="img_row">
-                <img src="../assets/images/first.png" alt="">
-                <img src="../assets/images/second.png" alt="">
+                <div class="container">
+                    <img class="main_img" src="../assets/images/first.png" alt="">
+                    <div class="t">
+                        <img src="../assets/images/hover_arrow.svg" alt="">
+                        <p class="artist_year">2023</p>
+                        <p class="artist_name">Artist <br> Name</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="main_img" src="../assets/images/second.png" alt="">
+                    <div class="t">
+                        <img src="../assets/images/hover_arrow.svg" alt="">
+                        <p class="artist_year">2023</p>
+                        <p class="artist_name">Artist <br> Name</p>
+                    </div>
+                </div>
             </div>
             <div class="img_row">
-                <img src="../assets/images/three.png" alt="">
-                <img src="../assets/images/forth.png" alt="">
+                <div class="container">
+                    <img class="main_img" src="../assets/images/three.png" alt="">
+                    <div class="t">
+                        <img src="../assets/images/hover_arrow.svg" alt="">
+                        <p class="artist_year">2023</p>
+                        <p class="artist_name">Artist <br> Name</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="main_img" src="../assets/images/forth.png" alt="">
+                    <div class="t">
+                        <img src="../assets/images/hover_arrow.svg" alt="">
+                        <p class="artist_year">2023</p>
+                        <p class="artist_name">Artist <br> Name</p>
+                    </div>
+                </div>
             </div>
+
             <div class="img_row">
-                <img src="../assets/images/fifth.png" alt="">
-                <img src="../assets/images/sixth.png" alt="">
+                <div class="container">
+                    <img class="main_img" src="../assets/images/fifth.png" alt="">
+                    <div class="t">
+                        <img src="../assets/images/hover_arrow.svg" alt="">
+                        <p class="artist_year">2023</p>
+                        <p class="artist_name">Artist <br> Name</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="main_img" src="../assets/images/sixth.png" alt="">
+                    <div class="t">
+                        <img src="../assets/images/hover_arrow.svg" alt="">
+                        <p class="artist_year">2023</p>
+                        <p class="artist_name">Artist <br> Name</p>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
 </template>
@@ -57,7 +102,72 @@ export default {
     align-items: center;
 }
 
-@media only screen and (max-width: 1034px) {
+
+
+.artist_year {
+    font-family: BrinnanThin !important;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #ffffff;
+
+}
+
+.artist_name {
+    font-family: BrinnanBold !important;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #ffffff;
+
+}
+
+/*  */
+.container {
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container:hover .t {
+    top: 0;
+}
+
+.t img {
+    width: 94px;
+    height: 94px;
+}
+
+.t {
+    color: white;
+    background: #FF540B99;
+    position: absolute;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 40px;
+}
+
+/*  */
+
+@media only screen and (max-width: 1100px) {
     .project_container {
         margin: 40px auto;
         width: 100%;
@@ -69,7 +179,7 @@ export default {
 
     }
 
-    .img_row img {
+    .main_img img {
         width: 100%;
     }
 
