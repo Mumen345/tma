@@ -6,8 +6,9 @@
             <img src="../assets/images/Line11.svg" alt="">
         </div>
         <p class="header">
-            LET"S DISCUSS<br /> YOUR BRAND
+            LET'S DISCUSS<br /> YOUR BRAND
         </p>
+
         <div class="social_media">
             <img src="../assets/images/instagram.svg" alt="">
             <img src="../assets/images/facebook.svg" alt="">
@@ -28,7 +29,7 @@ export default {
     background-color: #FF540B;
     height: 688px;
     width: 90%;
-    margin: 0 auto;
+    margin: 40px auto;
     border-radius: 0px 0px 120px 120px !important;
     display: flex;
     flex-direction: column;
@@ -61,11 +62,25 @@ export default {
     align-items: center;
 }
 
-@media only screen and (max-width: 1034px) {
+.hover_div {
+    /* display: none; */
+}
+
+@media only screen and (max-width: 1298px) {
     .footer_container {
         background-color: #FF540B;
-        height: auto;
-        width: 100%;
+        height: 400px;
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 0px 0px 120px 120px !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer_container {
+        background-color: #FF540B;
+        height: 400px;
+        width: 95%;
         margin: 0 auto;
         border-radius: 0 !important;
     }
@@ -80,5 +95,18 @@ export default {
         color: #ffffff;
 
     }
+
+    .social_media {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .first_image {
+        display: none;
+    }
+
 }
 </style>
