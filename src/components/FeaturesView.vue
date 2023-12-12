@@ -2,13 +2,15 @@
     <div class="header_div">
         <p class="plans_header">FLEXIBLE PRICING PLANS FOR YOUR BRAND</p>
         <p class="subtext">Lorem ipsum dolor sit amet consectetur. Lacus rutrum feugiat adipiscing parturient non </p>
-        <img src="../assets/images/prices.svg" alt="">
+        <PricePlan />
     </div>
 </template>
 
 <script>
-export default {
+import PricePlan from './PricePlan.vue';
 
+export default {
+    components: { PricePlan }
 }
 </script>
 

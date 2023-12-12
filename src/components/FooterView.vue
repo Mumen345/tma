@@ -108,5 +108,35 @@ export default {
         display: none;
     }
 
+    @media only screen and (max-width: 500px) {
+        .header {
+            font-family: ReportFont;
+            font-size: 35px;
+            font-weight: 900;
+            line-height: 66px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #ffffff;
+
+        }
+
+        .social_media {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .footer_container {
+            background-color: #FF540B;
+            height: 400px;
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 0 !important;
+        }
+    }
+
+
 }
 </style>
