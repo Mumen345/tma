@@ -11,7 +11,7 @@
                     </span> </p>
             </div>
         </div>
-        <div class="price_container">
+        <div v-if="isActive2" class="price_container">
             <div class="col_1">
                 <div>
                     <p class="choose_header">CHOOSE YOUR PLAN FOR YOUR BRAND</p>
@@ -44,7 +44,7 @@
                     <hr />
                     <p>Promo Videos</p>
                     <hr />
-                    <p>pfestyle Videos</p>
+                    <p>Lifestyle Videos</p>
                     <hr />
                     <p> <span class="activeGlow">Pictures ↗</span> </p>
                     <hr />
@@ -85,8 +85,6 @@
                     <hr />
                     <p>Website</p>
                 </div>
-                <div>
-                </div>
             </div>
             <div class="col_2">
                 <div class="price_feature_container">
@@ -96,6 +94,71 @@
                         <p>Display stars in Google organic search result and showcase.</p>
                     </div>
                     <button class="subscribe_btn">Subscribe</button>
+                </div>
+                <div class="check_div">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div2">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                </div>
+                <div class="check_div3">
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
                 </div>
             </div>
             <div class="col_2">
@@ -107,6 +170,71 @@
                     </div>
                     <button class="subscribe_btn">Subscribe</button>
                 </div>
+                <div class="check_div">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div2">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                </div>
+                <div class="check_div3">
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                </div>
             </div>
             <div class="col_2">
                 <div class="price_feature_container">
@@ -116,6 +244,372 @@
                         <p>Display stars in Google organic search result and showcase.</p>
                     </div>
                     <button class="subscribe_btn">Subscribe</button>
+                </div>
+                <div class="check_div">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div2">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div3">
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                </div>
+            </div>
+        </div>
+        <div v-if="isActive" class="price_container">
+            <div class="col_1">
+                <div>
+                    <p class="choose_header">CHOOSE YOUR PLAN FOR YOUR BRAND</p>
+                    <p class="choose_paragraph">Choose the plan that’s right for your brand. Whether you’re just getting
+                        started
+                        with your brand.</p>
+                </div>
+                <div class="plan_active_section">
+                    <p>BRAND</p>
+                    <p>Brand Strategy</p>
+                    <p>Brand Idetity</p>
+                    <p>Branding</p>
+                </div>
+                <div class="plan_active_section2">
+                    <p>CONTENT</p>
+                    <hr />
+                    <p>Content Strategy</p>
+                    <hr />
+                    <p>Content Consultancy</p>
+                    <hr />
+                    <p>Content Calender </p>
+                    <hr />
+                    <p> <span class="activeGlow">Content Creation ↗</span> </p>
+                    <hr />
+                    <p> <span class="activeGlow">Video ↗</span> </p>
+                    <hr />
+                    <p>TikTok </p>
+                    <hr />
+                    <p>Reels</p>
+                    <hr />
+                    <p>Promo Videos</p>
+                    <hr />
+                    <p>Lifestyle Videos</p>
+                    <hr />
+                    <p> <span class="activeGlow">Pictures ↗</span> </p>
+                    <hr />
+                    <p>Studio Shot</p>
+                    <hr />
+                    <p>Lifestyle Shot</p>
+                    <hr />
+                    <p>Dump Shot</p>
+                    <hr />
+                    <p> <span class="activeGlow">Graphics ↗</span> </p>
+                    <hr />
+                    <p>Marketing Graphics</p>
+                    <hr />
+                    <p>3D Graphics</p>
+                    <hr />
+                    <p>Motion Graphics</p>
+                    <hr />
+                    <p>Illustration</p>
+                    <hr />
+                    <p> <span class="activeGlow">Distribution ↗</span> </p>
+                    <hr />
+                    <p>Meta (Facebook & Instagram)</p>
+                    <hr />
+                    <p>Twitter</p>
+                    <hr />
+                    <p>YouTube</p>
+                    <hr />
+                    <p>TikTok</p>
+                    <hr />
+                    <p>Snapchat</p>
+                </div>
+                <div class="plan_active_section2">
+                    <p>INFLUENCERS</p>
+                    <hr />
+                    <p>Micro</p>
+                    <hr />
+                    <p>Macro</p>
+                    <hr />
+                    <p>Website</p>
+                </div>
+            </div>
+            <div class="col_2">
+                <div class="price_feature_container">
+                    <div class="price_feature_header">
+                        <p>Bronze</p>
+                        <p> <span>$137</span>/mo</p>
+                        <p>Display stars in Google organic search result and showcase.</p>
+                    </div>
+                    <button class="subscribe_btn">Subscribe</button>
+                </div>
+                <div class="check_div">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div2">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                </div>
+                <div class="check_div3">
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                </div>
+            </div>
+            <div class="col_2">
+                <div class="price_feature_container">
+                    <div class="price_feature_header">
+                        <p>Silver</p>
+                        <p> <span>$182</span>/mo</p>
+                        <p>Display stars in Google organic search result and showcase.</p>
+                    </div>
+                    <button class="subscribe_btn">Subscribe</button>
+                </div>
+                <div class="check_div">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div2">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_close.svg" alt="">
+                </div>
+                <div class="check_div3">
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                </div>
+            </div>
+            <div class="col_2">
+                <div class="price_feature_container">
+                    <div class="price_feature_header">
+                        <p>Gold</p>
+                        <p> <span>$273</span>/mo</p>
+                        <p>Display stars in Google organic search result and showcase.</p>
+                    </div>
+                    <button class="subscribe_btn">Subscribe</button>
+                </div>
+                <div class="check_div">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div2">
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr class="empty_hr" />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                    <hr />
+                    <img src="../assets/images/check_green.svg" alt="">
+                </div>
+                <div class="check_div3">
+                    <div class="empty"></div>
+                    <hr class="empty_hr" />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
+                    <hr />
+                    <p>Optional</p>
                 </div>
             </div>
         </div>
@@ -193,7 +687,7 @@ export default {
 
 .toggle_toggle {
     background: #EEEEEE;
-    height: 112px;
+    height: 75px;
     left: 455px;
     border-radius: 150px;
     display: flex;
@@ -212,8 +706,8 @@ export default {
 }
 
 .text_container {
-    width: 283px;
-    height: 96px;
+    width: 203px;
+    height: 70px;
     padding: 36px, 49px;
     border-radius: 88.39px;
     gap: 10px;
@@ -246,6 +740,7 @@ export default {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    gap: 40px;
     padding-top: 30px;
 }
 
@@ -355,18 +850,11 @@ ul p :nth-child(1) {
 
 }
 
-/* .plan_active_section hr {
-    width: 100%;
-    border: 0;
-    height: 0.5px;
-    background: #ffffff;
-} */
-
 hr {
     width: 100%;
     border: 0;
     height: 0.5px;
-    background: #333;
+    background: rgb(136, 136, 136);
 }
 
 .plan_active_section2 p:nth-child(1) {
@@ -390,6 +878,74 @@ hr {
 .activeGlow {
     font-family: BrinnanBold !important;
 
+}
+
+.check_div hr {
+    width: 100%;
+    border: 0;
+    height: 0.5px;
+    background: #434343;
+}
+
+.check_div2 hr {
+    width: 100%;
+    border: 0;
+    height: 0.5px;
+    background: #434343;
+}
+
+.check_div {
+    margin-top: 90px;
+    width: 70%;
+    margin: 90 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.empty_hr {
+    width: 100%;
+    border: 0;
+    height: 0.5px;
+    background: rgba(51, 51, 51, 0);
+}
+
+.empty {
+    width: 15px;
+    height: 15px;
+}
+
+.check_div2 {
+    margin-top: 80px;
+    width: 70%;
+    margin: 90 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.check_div3 p {
+    font-family: BrinnanLight;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.check_div3 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
 }
 
 @media only screen and (max-width: 1291px) {
@@ -423,6 +979,7 @@ hr {
 
         .col_2 {
             width: 100%;
+
         }
 
         .col_1 {
@@ -448,6 +1005,10 @@ hr {
 @media only screen and (max-width: 497px) {
     .col_2 {
         width: 100%;
+        border-radius: 10px;
+        border: none;
+        background-color: #48484800;
+        backdrop-filter: none;
     }
 }
 </style>
