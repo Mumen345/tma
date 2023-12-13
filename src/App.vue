@@ -57,6 +57,9 @@ body {
   border-radius: 34px;
   border: 1px solid #2A2929;
   gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
   height: 64px;
   font-family: BrinnanRegular;
@@ -70,9 +73,6 @@ body {
 .secondarybtn:hover {
   background-color: #FF540B;
   color: #ffffff;
-  transition-property: background-color;
-  transition-timing-function: linear;
-  transition-delay: 0.3s;
 }
 
 #app {
