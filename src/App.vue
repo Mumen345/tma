@@ -42,9 +42,9 @@ p {
 }
 
 nav a.router-link-exact-active {
-  color: #2A2929;
+  /* color: #2A2929;
   text-decoration: underline;
-  text-decoration-color: #FF540B;
+  text-decoration-color: #FF540B; */
 }
 
 body {
@@ -80,6 +80,10 @@ body {
   margin: 0 auto;
   /* font-family: BrinnanRegular !important; */
 
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @font-face {

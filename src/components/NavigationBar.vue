@@ -2,9 +2,13 @@
     <div class="container">
         <nav class="navbar">
             <div class="links">
-                <router-link to="/about">About us</router-link> |
-                <router-link to="/services">Services</router-link> |
-                <router-link to="/pricing">Pricing</router-link>
+
+                <router-link v-scroll-to="{ el: '#Services', onDone: onDone, onCancel: onCancel }"
+                    to="/#">Services</router-link> |
+                <router-link v-scroll-to="{ el: '#Pricing', onDone: onDone, onCancel: onCancel }"
+                    to="/#">Pricing</router-link> |
+                <router-link v-scroll-to="{ el: '#Projects', onDone: onDone, onCancel: onCancel }" to="/#">Projects
+                    us</router-link>
             </div>
             <button @click="goTocontact" class="secondarybtn"> Let's Talk</button>
         </nav>

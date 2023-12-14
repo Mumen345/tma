@@ -15,10 +15,10 @@ import BaseFooter from './BaseFooter.vue';
   <div>
     <HeroSection />
     <SecondSection />
-    <OurServices />
+    <OurServices id="Services" />
     <TrustedView />
-    <FeaturesView />
-    <ProjectsView />
+    <FeaturesView id="Pricing" />
+    <ProjectsView id="Projects" />
     <FooterView />
     <BaseFooter />
   </div>
