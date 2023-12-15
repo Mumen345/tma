@@ -93,7 +93,7 @@ html {
 
 @font-face {
   font-family: BrinnanRegular;
-  src: url("./assets//Fonts/BrinnanRegular.ttf");
+  src: url("./assets/Fonts/BrinnanRegular.ttf");
 }
 
 @font-face {
